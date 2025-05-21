@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+header {
+  background-color: #a30000;
+  color: white;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 100px;       /* aumenta l’altezza per una visualizzazione migliore */
+  width: auto;         /* mantiene le proporzioni dell’immagine */
+  border-radius: 12px; /* leggero arrotondamento per uno stile più elegante */
+  margin-right: 20px;  /* spazio tra il logo e il menu, se serve */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  background-color: #eaeaea;
+  padding: 2em 1em;
+}
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.intro {
+  text-align: center;
+  margin: 2em 0;
+}
+
+.highlights {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+  padding: 2em 1em;
+}
+
+.highlight {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1em;
+  max-width: 300px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.highlight img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
